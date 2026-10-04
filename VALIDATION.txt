@@ -1,0 +1,22 @@
+RAKSAWALUYA — CATATAN PEMERIKSAAN
+4 Oktober 2026
+
+LULUS
+- Sintaks config.js, core.js, app.js dan script Bash.
+- ID unik, tautan jangkar, referensi ikon, dan seluruh aset lokal.
+- Enam gambar WebP berhasil didekode; font WOFF2 dan lisensi tersedia.
+- Halaman tidak memerlukan script, stylesheet, font, atau gambar eksternal.
+- Uji DOM: mode siang/malam, menu seluler, sudut gambar dan hotspot.
+- Uji DOM: tiga skenario air dan perubahan indikator ambang.
+- Uji DOM: jeda/lanjutkan simulasi dan pergantian parameter grafik.
+- Uji DOM: filter galeri, dialog, tombol panah, dan keyboard.
+- Uji DOM: pratinjau laporan, validasi formulir, dan pemicu unduh.
+- Uji 900 sampel simulasi serta nilai tepat pada batas ambang.
+
+BATAS PEMERIKSAAN
+- Pengujian DOM menggunakan jsdom, dengan canvas dan dialog dimock.
+- Tidak memverifikasi render piksel, pengunduhan native, atau layout browser.
+- Tampilan desktop/seluler belum diperiksa lewat browser visual.
+- Tidak ada pengujian sensor/API lapangan karena paket ini bersifat simulasi.
+
+Panduan penggunaan, edit, dan unggah terdapat pada README.md.
